@@ -11,7 +11,9 @@ Files
 
 `server.js` is responsible for managing HTTP requests.
 
-Made by freddy#0380 (izac999)! Powered by [Glitch](https://glitch.com/)
+For more help, join: [Support Server!](https://discord.gg/mBKfu2D)
+
+Made by freddy#0380 (DISCORD) (izac999)! Powered by [Glitch](https://glitch.com/)
 -------------------
 
 \ ゜o゜)ノ
