@@ -1,0 +1,59 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Awake! Admin</title>
+    <meta name="description" content="Keep your sites online!">
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Awake! Admin
+      </h1>
+    </header>
+
+    <main>
+      <p class="bold">Welcome!</p>
+      
+      <p>This page is used for admins to remove URLs from the database.</p>
+      
+      <form action="/removeurl" onsubmit="return(validate());">
+        <input name="url" type="text" maxlength="100" placeholder="https://www.example.com" aria-labelledby="submit-dream" id="input_url" required>
+        <input name="adminkey" type="text" maxlength="100" placeholder="Admin Key" required>
+        <button type="submit" id="submit-dream">Remove URL</button>
+      </form>
+      
+      <section class="dreams">
+        <ul id="dreams"></ul>
+      </section>
+    </main>
+
+    <footer>
+      Made by xXProGamerXx! Powered by <a href="https://glitch.com">Glitch</a>!
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>
