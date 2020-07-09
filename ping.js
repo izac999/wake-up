@@ -41,6 +41,6 @@ function ping()
 
 setInterval(() => {
  ping();
-}, 300000);
+}, 300000);  // Here is when the project pings all the URL's on the urls-save.json file every 5 mins.
 
 ping();
