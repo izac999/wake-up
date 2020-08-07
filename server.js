@@ -47,7 +47,6 @@ function addUrl(url)
       } else {
          j.push(url); 
       }
-      //db.add(`urls`, 1);
       fs.writeFile("./urls-save.json", JSON.stringify(j), 'utf8', () => {
         res();
       });
