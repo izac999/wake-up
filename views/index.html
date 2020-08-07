@@ -1,17 +1,8 @@
-<!-- This is a static file -->
-<!-- served from your routes in server.js -->
-
-<!-- You might want to try something fancier: -->
-<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
-<!-- pug: https://pugjs.org/ -->
-<!-- haml: http://haml.info/ -->
-<!-- hbs(handlebars): http://handlebarsjs.com/ -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Awake Glitch!</title>
-    <meta name="description" content="Keep your sites online!">
+    <title>Wake Up!</title>
+    <meta name="description" content="Wake Up, is a  Basic Pinging System that pings your URL's every 5 minutes! Made by: freddy#0380 (Discord)">
     <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,19 +12,23 @@
     <link rel="stylesheet" href="/style.css">
     
     <!-- import the webpage's client-side javascript file -->
-    <script src="/client.js" defer></script>
+    <script src="/client.js" defer></script> 
   </head>
   <body>
     <header>
       <h1>
-        Awake Glitch!
+        Wake Up!
       </h1>
     </header>
 
     <main>
       <p class="bold">Welcome!</p>
       
-      <p>Use this tool to keep your Glitch projects online! If you need help or would like to remove your URL from our service please join our official Discord Server: <a href="https://discord.gg/mBKfu2D">Support Server!</a></p>
+      <p>Use this tool to keep your Sites online! If you need help or would like to remove your URL from our service please join our official Discord Server: <a href="https://discord.gg/mBKfu2D">Support Server!</a></p>
+      
+      <p class="alert">⚠️ ATTENTION: IF YOU CAME HERE JUST TO ADD A GLITCH URL, HAVE IN NOTE THAT THIS SERVICE MAY NOT WORK FOR YOU, SINCE GLITCH BANNED PINGING SERVICES, ANYWAY YOUR GLITCH URL MAY BE REMOVED FROM THE DATABASE ONCE ADDED! WE DONT WANT TO HAVE PROBLEMS WITH GLITCH.</p>
+      
+      <p class="alert2">⚠️ ALSO PLEASE ONLY ADD AN URL ONCE! YOU DONT HAVE TO AND ITS NOT NECESARY TO ADD THEM MORE THAN ONCE, YOUR URL WILL ALWAYS BE PINGED NO MATTER WHAT, ADDING AN URL MORE THAN ONCE WILL ONLY CAUSE THE DATABASE TO GET CORRUPTED OR THAT THE SYSTEM CRASH!</p>
       
       <form action="/addurl" onsubmit="return(validate());">
         <input name="url" type="text" maxlength="100" id="input_url" placeholder="https://www.example.com" aria-labelledby="submit-dream" required>
@@ -44,9 +39,13 @@
         <ul id="dreams"></ul>
       </section>
     </main>
+    
+    <p>Once you add your URL to our service, your URL will be pinged every 5 minutes! For more support, help, info, or URL Removal, join our Official Support Discord Server: <a href="https://discord.gg/mBKfu2D">Support Server!</a></p>
+    
+    <p>We're actually pinging: +30 URL's</p>
 
     <footer>
-      Made by freddy#0380 (Discord) Powered by <a href="https://glitch.com">Glitch</a>!
+      Made by freddy#0380 (Discord)
     </footer>
 
     <!-- include the Glitch button to show what the webpage is about and
