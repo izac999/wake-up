@@ -15,7 +15,7 @@ Files
 
 For more help, join our Discord: [Support Server!](https://discord.gg/mBKfu2D)
 
-Made by freddy#0380 (DISCORD) (izac999)!
+Made by freddy#0380 (izac999)!
 -------------------
 
 \ ゜o゜)ノ
