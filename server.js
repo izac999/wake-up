@@ -23,17 +23,17 @@ app.get('/addurl', function(request, response) {
   if (url !== undefined)
   {
    addUrl(url).then(() => {
-     response.send('Your URL has been added! If you would like to go home please click <a href="https://wake-up.freddyxd.repl.co">here</a>');
+     response.send('Your URL has been added! If you would like to go home please click <a href="https://wake-up.ml">here</a>');
    }).catch((reason) => {
      if (reason == "URL_IN_DB")
      {
-       response.send('Your URL is already in our database! If you would like to go home please click <a href="https://wake-up.freddyxd.repl.co">here</a>');
+       response.send('Your URL is already in our database! If you would like to go home please click <a href="https://wake-up.ml">here</a>');
      } else {
-      response.send('Failed to add your URL! Please <a href="https://wake-up.freddyxd.repl.co/">try again</a>.'); 
+      response.send('Failed to add your URL! Please <a href="https://wake-up.ml/">try again</a>.'); 
      }
    });
   } else {
-    response.send('Failed to add your URL! Please <a href="https://wake-up.freddyxd.repl.co">try again</a>.');
+    response.send('Failed to add your URL! Please <a href="https://wake-up.ml">try again</a>.');
   }
 });
 
