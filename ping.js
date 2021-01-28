@@ -42,6 +42,6 @@ function ping() {
 
 setInterval(() => {
 	ping();
-}, 300000); // Here is when all the URLs on the urls-save.json file are pinged every 5 minutes! You can change " 300000" to the time in ms. of how Manu times do you want the system to ping the URLs 
+}, 300000); // Here is when all the URLs on the urls-save.json file are pinged every 5 minutes! You can change " 300000" to the time in ms. of how many time do you want the system to ping the URLs 
 
 ping();
