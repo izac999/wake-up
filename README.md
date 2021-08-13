@@ -3,7 +3,7 @@ Wake Up!
 
 Wake Up! is a basic pinging system that pings any URL every 5 minutes.
 
-Site: [Wake Up!](https://wake-up.ml/)
+
 
 
 Files
@@ -13,8 +13,8 @@ Files
 
 `server.js` is responsible for managing HTTP requests.
 
-For more help, join our Discord: [Support Server!](https://discord.gg/mBKfu2D)
+
 
 -------------------
 
-\ ゜o゜)ノ
+## THIS PROJECT IS NO LONGER MANTAINED AND SUPPORTED
